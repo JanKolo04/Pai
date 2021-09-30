@@ -10,7 +10,3 @@ np.
 FOLDER for loop
   odliczanie-od-0-do-10.cpp
 
-
-## TASKS
-
-- [ ] cwiczenia z C++
