@@ -1,12 +1,17 @@
-# Pai
-Pai Lab
+# PaiLAB
+
+Repository for C++ learning on PaiLAB
 
 
-## Co robic
+### How to get repository
+```
+git clone https://github.com/JanKolo04/PaiLAB.git
+```
 
-Robic foldery do kazdego tematu z C++
-np.
+### Info about repository
+In every direcotry will be files from lesson
 
-FOLDER for loop
-  odliczanie-od-0-do-10.cpp
+#### Struckture
+````
 
+````
