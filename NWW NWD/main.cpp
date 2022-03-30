@@ -1,11 +1,20 @@
 #include <iostream>
+#include <chrono>
 using namespace std;
+
+chrono::duration<double> elapsed_seconds;
 
 int nwd();
 int nww();
 
 int main() {
+	chrono::system_clock::time_point start = chrono::system_clock::now();	// czas start
 	nww();
+
+	chrono::system_clock::time_point end = chrono::system_clock::now(); // czas stop
+
+	elapsed_seconds += end - start;	// obliczenie czasu
+	cout << "Czas: " << std::chrono::duration_cast<std::chrono::milliseconds>(elapsed_seconds).count()<< "ms\n";
 }
 
 int nwd() {
@@ -26,7 +35,7 @@ int nwd() {
 			a=a-b;
 		}
 	}
-	cout << a << endl;
+	cout << "NWD: " << a << endl;
 
 	return 0;
 }
@@ -53,7 +62,9 @@ int nww() {
 
 	int nww = iloczyn/a;
 
-	cout << nww << endl;
+	cout << "NWW: " << nww << endl;
 
 	return 0;
 }
+
+
