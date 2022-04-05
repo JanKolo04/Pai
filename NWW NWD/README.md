@@ -2,7 +2,7 @@
 <strong>NWW</strong> jest to największa wspólna wielokrotność, a <strong>NWD</strong> jest to najwiekszy wspólny dzielnik.
 
 ### Needed library
-Do odpalenia programu musisz mieć zimportowaną podstwową biblioteke C++ i zaimportowanie przestrzeni nazw
+Do odpalenia programu musisz mieć zimportowaną podstwową biblioteke C++ i zarezerwowanie przestrzeni nazw
 ```c++
 //primary library
 #include <iostream>
