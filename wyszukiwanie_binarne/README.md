@@ -29,12 +29,12 @@ int sr=(l+p)/2;
 
 `Krok 3` Tworzymy pętle <strong>while</strong> która będzie wykonywała kod dopóki l<=p
 
-`Krok 3a` W pętli while tworzymy warunek `if(tab[sr] == szuakna)` który jeśli jest true to wtedy kończy działanie programu
+* `Krok 3a` W pętli while tworzymy warunek `if(tab[sr] == szuakna)` który jeśli jest true to wtedy kończy działanie programu
 
-`Krok 3b` Jeśli poprzedni warunek nie jesy true to sprawdza czy `else if(tab[sr] > szukana)` jeśli tak to `p=sr-1;`
+* `Krok 3b` Jeśli poprzedni warunek nie jesy true to sprawdza czy `else if(tab[sr] > szukana)` jeśli tak to `p=sr-1;`
 
-`Krok 3c` Jeśli żaden z poprzednich warunków nie był true to wtedy `l=sr+1;`
+* `Krok 3c` Jeśli żaden z poprzednich warunków nie był true to wtedy `l=sr+1;`
 
-`Krok 3d` Sprawdzeniu wszytskich warunków przypisujemy do zmiennej <strong>sr</strong> nową wartość `sr=(l+p)/2;`
+* `Krok 3d` Sprawdzeniu wszytskich warunków przypisujemy do zmiennej <strong>sr</strong> nową wartość `sr=(l+p)/2;`
 
 `Krok 4` Jeśli wyjdziemy z pętli to wyświetlamy komunikat `cout << Nie znaleziono liczby << endl;`
