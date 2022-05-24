@@ -38,3 +38,5 @@ int sr=(l+p)/2;
 * `Krok 3d` Sprawdzeniu wszytskich warunków przypisujemy do zmiennej <strong>sr</strong> nową wartość `sr=(l+p)/2;`
 
 `Krok 4` Jeśli wyjdziemy z pętli to wyświetlamy komunikat `cout << Nie znaleziono liczby << endl;`
+
+
